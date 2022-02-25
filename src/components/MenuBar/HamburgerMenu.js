@@ -84,7 +84,7 @@ export default function HamburgerMenu() {
             borderRight: 2,
           }}
         >
-          About Simon Bop
+          About Bop Simon
         </MenuItem>
       </Menu>
     </>
