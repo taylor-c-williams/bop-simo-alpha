@@ -34,12 +34,12 @@ export default function HamburgerMenu() {
         anchorEl={anchorEl}
         anchorOrigin={{
           vertical: 'bottom',
-          horizontal: 'right',
+          horizontal: 'left',
         }}
         keepMounted
         transformOrigin={{
           vertical: 'top',
-          horizontal: 'right',
+          horizontal: 'left',
         }}
         open={Boolean(anchorEl)}
         onClose={handleClose}
@@ -79,7 +79,7 @@ export default function HamburgerMenu() {
         <MenuItem
           onClick={handleClose}
           sx={{
-            borderBottom: 3,
+            borderBottom: 2,
             borderLeft: 2,
             borderRight: 2,
           }}
